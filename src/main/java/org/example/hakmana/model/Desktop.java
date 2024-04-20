@@ -21,6 +21,16 @@ public class Desktop {
     private String networkCard="NO";
     private String micRegNum="NO";
     private String userNIC="No User";
+    private String userName="No User";
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     private String floppyDisk="NO";
     private String scannerRegNum="NO";
 
@@ -82,6 +92,9 @@ public class Desktop {
         this.micRegNum = micRegNum;
         this.scannerRegNum = scannerRegNum;
         this.userNIC=userNIC;
+    }
+    public Desktop(){
+
     }
 
 
